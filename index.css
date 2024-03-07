@@ -1,0 +1,157 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('bg_for_ar.jpeg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #26222D;
+    color: #fff;
+    height: 83px;
+}
+.header_section {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+.header_item {
+    font-size: 24px;
+}
+.logo_item {
+    display:flex;
+    align-items: center;
+    margin-right: 48px;
+}
+.header_logo_name {
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: "Arvo", serif;
+}
+.navigation {
+    display: flex;
+}
+.navigation .headerButton {
+    margin-right: 21px;
+}
+.search_item {
+    margin-right: 42px;
+}
+
+.main {
+    padding: 0 50px;
+    background-color: #161422;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_name {
+    margin: 54px 0 33px 0;
+}
+
+.section_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section_image {
+    width:320px;
+    height: 190px;
+    border-radius: 15px;
+}
+.section_content_square {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.section_image_square {
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    margin-bottom: 33px;
+}
+
+.description {
+    margin-top: 75px;
+}
+.description_item {
+    width: 737px;
+}
+.registerButton {
+    margin: 53px 0 55px;
+    background-color: #3E305F;
+    width: 295px;
+    height: 48px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #161422;
+    color: #fff;
+    padding: 0 50px;
+}
+.border {
+    border-bottom: 1px solid #fff;
+}
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_icons {
+    margin: 32px 0 21px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.helpButton {
+    display: flex;
+    width: 295px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #3E305F;
+    padding-left: 26px;
+    align-items: center;
+    font-size: 21px;
+}
+.help_item {
+    margin: 20px;
+}
+
+.indexing {
+    display: flex;
+    margin: 28px 0;
+    font-size: 16px;
+    align-items: center;
+}
+.indexing_item {
+    margin-left: 20px;
+}
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    margin-right: 96px;
+    font-size: 20px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.links a {
+    margin-bottom: 18px;
+    margin-left: 34px;
+}

@@ -1,0 +1,143 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('bg_for_ar.jpeg');
+    background-size: cover;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 92px 0 57px;
+}
+.logo_image {
+    width: 97px;
+    height: 97px;
+    margin-right: 22px;
+}
+.logo_name {
+    font-family: "Arvo", serif;
+    font-size: 48px;
+}
+
+.registration_form {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 663px;
+    height: 868px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header_item {
+    font-size: 48px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 49px 0 81px;
+}
+.fields {
+    margin: 0 40px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+.input_container1 {
+    width: 280px;
+    height: 55px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: #5389DA;
+    color: #fff;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.field1 {
+    width: 208px;
+    background-color: #5389DA;
+    border-radius: 80px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-family: inherit;
+}
+.input_container2 {
+    width: 583px;
+    height: 55px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: #5389DA;
+    color: #fff;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 31px;
+}
+.field2 {
+    width: 511px;
+    background-color: #5389DA;
+    border-radius: 80px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-family: inherit;
+}
+.field1::placeholder, .field2::placeholder {
+    color: #ffffff;
+}
+
+.checkbox_container {
+    margin: 42px 40px 54px;
+    display: flex;
+    align-items: center;
+}
+.checkbox {
+    margin-left: 30px;
+    width: 24px;
+    height: 24px;
+}
+.agreeItem {
+    font-size: 24px;
+    margin-left: 26px;
+}
+
+.userButtons {
+    display: flex;
+    flex-direction: column;
+}
+.registerButton {
+    margin: 0 40px;
+    width: 583px;
+    height: 61px;
+    background-color: #5389DA;
+    color: #fff;
+    border-radius: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginLink a {
+    text-decoration: underline;
+    margin: 0 40px;
+    width: 583px;
+    height: 61px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

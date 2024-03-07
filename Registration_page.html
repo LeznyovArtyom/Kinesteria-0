@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinesteria</title>
+    <link rel="icon" href="icons/icon.png" />
+    <link rel="stylesheet" href="Registration_page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="logo">
+      <div class="logo_icon">
+        <img src="icons/icon.png" alt="Иконка" class="logo_image" />
+      </div>
+      <div class="logo_name"><a href="index.html">Kinesteria</a></div>
+    </div>
+    <div class="registration_form">
+      <div class="header_item">Регистрация</div>
+      <div class="fields">
+        <div class="name">
+          <div class="input_container1">
+            <input
+              type="text"
+              id="last_name"
+              placeholder="Фамилия"
+              class="last_name field1"
+            />
+          </div>
+          <div class="input_container1">
+            <input
+              type="text"
+              id="first_name"
+              placeholder="Имя"
+              class="first_name field1"
+            />
+          </div>
+        </div>
+        <div class="input_container2">
+          <input
+            type="text"
+            id="login"
+            placeholder="Логин"
+            class="login field2"
+          />
+        </div>
+        <div class="input_container2">
+          <input
+            type="text"
+            id="email"
+            placeholder="Электронная почта"
+            class="email field2"
+          />
+        </div>
+        <div class="input_container2">
+          <input
+            type="text"
+            id="password1"
+            placeholder="Пароль"
+            class="password field2"
+          />
+        </div>
+        <div class="input_container2">
+          <input
+            type="text"
+            id="password2"
+            placeholder="Повторите пароль"
+            class="password field2"
+          />
+        </div>
+      </div>
+      <div class="checkbox_container">
+        <input type="checkbox" id="agree_checkbox" class="checkbox" />
+        <label for="checkbox" class="agreeItem"> Я согласен с условиями ресурса </label>
+      </div>
+      <div class="userButtons">
+        <div class="registerButton"><a href="Main_page.html">Зарегистрироваться</a></div>
+        <div class="loginLink"><a href="Authorization_page.html">Войти</a></div>
+      </div>
+    </div>
+  </body>
+</html>

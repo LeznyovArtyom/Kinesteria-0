@@ -1,0 +1,166 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('bg_for_ar.jpeg');
+    background-size: cover;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 92px 0 57px;
+}
+.logo_image {
+    width: 97px;
+    height: 97px;
+    margin-right: 22px;
+}
+.logo_name {
+    font-family: "Arvo", serif;
+    font-size: 48px;
+}
+
+.authorization_form {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 663px;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header_item {
+    font-size: 48px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 49px 0 81px;
+}
+.fields {
+    margin: 0 40px;
+}
+
+.input_container {
+    width: 583px;
+    height: 55px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: #5389DA;
+    color: #fff;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 31px;
+}
+.field {
+    width: 511px;
+    background-color: #5389DA;
+    border-radius: 80px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-family: inherit;
+}
+.field::placeholder {
+    color: #ffffff;
+}
+
+.container_for_check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0 43px;
+}
+.I_am_not_a_robot {
+    width: 393px;
+    height: 116px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.checkbox_for_check {
+    margin-left: 28px;
+    width: 24px;
+    height: 24px;
+}
+.notRobot {
+    font-size: 24px;
+    margin-left: 11px;
+}
+
+.checkbox_container {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.checkbox {
+    margin-left: 36px;
+    width: 24px;
+    height: 24px;
+}
+.remember_me {
+    font-size: 24px;
+    margin-left: 26px;
+}
+
+.authorizationButton {
+    margin: 32px 40px 27px;
+    width: 583px;
+    height: 61px;
+    border-radius: 20px;
+    background-color: #5389DA;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.form_footer {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_item {
+    display: flex;
+    justify-content: center;
+}
+.footer_align {
+    margin: 18px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer_icons {
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_line {
+    height: 1px;
+    background-color: #000;
+}
+.footer_registerButton {
+    margin: 16px auto;
+    width: 378px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #A9C7F8;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
